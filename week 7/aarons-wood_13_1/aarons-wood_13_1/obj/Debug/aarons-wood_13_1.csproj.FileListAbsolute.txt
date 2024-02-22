@@ -1,0 +1,10 @@
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\bin\Debug\aarons-wood_13_1.exe.config
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\bin\Debug\aarons-wood_13_1.exe
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\bin\Debug\aarons-wood_13_1.pdb
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\obj\Debug\aarons-wood_13_1.csproj.AssemblyReference.cache
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\obj\Debug\aarons_wood_13_1.Form1.resources
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\obj\Debug\aarons_wood_13_1.Properties.Resources.resources
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\obj\Debug\aarons-wood_13_1.csproj.GenerateResource.cache
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\obj\Debug\aarons-wood_13_1.csproj.CoreCompileInputs.cache
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\obj\Debug\aarons-wood_13_1.exe
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 7\aarons-wood_13_1\aarons-wood_13_1\obj\Debug\aarons-wood_13_1.pdb
