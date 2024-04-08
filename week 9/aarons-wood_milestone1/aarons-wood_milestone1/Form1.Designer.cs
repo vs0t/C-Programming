@@ -33,6 +33,9 @@
             this.usersBttn = new System.Windows.Forms.Button();
             this.inventoryBttn = new System.Windows.Forms.Button();
             this.orderBttn = new System.Windows.Forms.Button();
+            this.placeOrderBttn = new System.Windows.Forms.Button();
+            this.reportsBttn = new System.Windows.Forms.Button();
+            this.tablesBttn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -49,45 +52,85 @@
             // 
             this.menuBttn.BackColor = System.Drawing.Color.Salmon;
             this.menuBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.menuBttn.Location = new System.Drawing.Point(130, 349);
+            this.menuBttn.Location = new System.Drawing.Point(62, 216);
             this.menuBttn.Name = "menuBttn";
             this.menuBttn.Size = new System.Drawing.Size(127, 59);
             this.menuBttn.TabIndex = 1;
             this.menuBttn.Text = "View Menu";
             this.menuBttn.UseVisualStyleBackColor = false;
+            this.menuBttn.Click += new System.EventHandler(this.menuBttn_Click);
             // 
             // usersBttn
             // 
             this.usersBttn.BackColor = System.Drawing.Color.Orange;
             this.usersBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.usersBttn.Location = new System.Drawing.Point(263, 349);
+            this.usersBttn.Location = new System.Drawing.Point(195, 216);
             this.usersBttn.Name = "usersBttn";
             this.usersBttn.Size = new System.Drawing.Size(127, 59);
             this.usersBttn.TabIndex = 2;
             this.usersBttn.Text = "View Users";
             this.usersBttn.UseVisualStyleBackColor = false;
+            this.usersBttn.Click += new System.EventHandler(this.usersBttn_Click);
             // 
             // inventoryBttn
             // 
             this.inventoryBttn.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.inventoryBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.inventoryBttn.Location = new System.Drawing.Point(396, 349);
+            this.inventoryBttn.Location = new System.Drawing.Point(328, 216);
             this.inventoryBttn.Name = "inventoryBttn";
             this.inventoryBttn.Size = new System.Drawing.Size(127, 59);
             this.inventoryBttn.TabIndex = 3;
             this.inventoryBttn.Text = "View Inventory";
             this.inventoryBttn.UseVisualStyleBackColor = false;
+            this.inventoryBttn.Click += new System.EventHandler(this.inventoryBttn_Click);
             // 
             // orderBttn
             // 
             this.orderBttn.BackColor = System.Drawing.Color.MediumPurple;
             this.orderBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.orderBttn.Location = new System.Drawing.Point(529, 349);
+            this.orderBttn.Location = new System.Drawing.Point(461, 216);
             this.orderBttn.Name = "orderBttn";
             this.orderBttn.Size = new System.Drawing.Size(127, 59);
             this.orderBttn.TabIndex = 4;
             this.orderBttn.Text = "View Orders";
             this.orderBttn.UseVisualStyleBackColor = false;
+            this.orderBttn.Click += new System.EventHandler(this.orderBttn_Click);
+            // 
+            // placeOrderBttn
+            // 
+            this.placeOrderBttn.BackColor = System.Drawing.Color.MediumPurple;
+            this.placeOrderBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.placeOrderBttn.Location = new System.Drawing.Point(461, 281);
+            this.placeOrderBttn.Name = "placeOrderBttn";
+            this.placeOrderBttn.Size = new System.Drawing.Size(127, 59);
+            this.placeOrderBttn.TabIndex = 5;
+            this.placeOrderBttn.Text = "Place Order";
+            this.placeOrderBttn.UseVisualStyleBackColor = false;
+            this.placeOrderBttn.Click += new System.EventHandler(this.placeOrderBttn_Click);
+            // 
+            // reportsBttn
+            // 
+            this.reportsBttn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.reportsBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.reportsBttn.Location = new System.Drawing.Point(594, 216);
+            this.reportsBttn.Name = "reportsBttn";
+            this.reportsBttn.Size = new System.Drawing.Size(127, 59);
+            this.reportsBttn.TabIndex = 6;
+            this.reportsBttn.Text = "Generate Report(s)";
+            this.reportsBttn.UseVisualStyleBackColor = false;
+            this.reportsBttn.Click += new System.EventHandler(this.reportsBttn_Click);
+            // 
+            // tablesBttn
+            // 
+            this.tablesBttn.BackColor = System.Drawing.Color.MediumPurple;
+            this.tablesBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.tablesBttn.Location = new System.Drawing.Point(461, 346);
+            this.tablesBttn.Name = "tablesBttn";
+            this.tablesBttn.Size = new System.Drawing.Size(127, 59);
+            this.tablesBttn.TabIndex = 7;
+            this.tablesBttn.Text = "View Tables";
+            this.tablesBttn.UseVisualStyleBackColor = false;
+            this.tablesBttn.Click += new System.EventHandler(this.tablesBttn_Click);
             // 
             // Form1
             // 
@@ -95,6 +138,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tablesBttn);
+            this.Controls.Add(this.reportsBttn);
+            this.Controls.Add(this.placeOrderBttn);
             this.Controls.Add(this.orderBttn);
             this.Controls.Add(this.inventoryBttn);
             this.Controls.Add(this.usersBttn);
@@ -114,6 +160,9 @@
         private System.Windows.Forms.Button usersBttn;
         private System.Windows.Forms.Button inventoryBttn;
         private System.Windows.Forms.Button orderBttn;
+        private System.Windows.Forms.Button placeOrderBttn;
+        private System.Windows.Forms.Button reportsBttn;
+        private System.Windows.Forms.Button tablesBttn;
     }
 }
 
