@@ -87,6 +87,39 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="searchInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchInventory.Designer.cs">
+      <DependentUpon>searchInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchMenu.Designer.cs">
+      <DependentUpon>searchMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchOrders.Designer.cs">
+      <DependentUpon>searchOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchTables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchTables.Designer.cs">
+      <DependentUpon>searchTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchUsers.Designer.cs">
+      <DependentUpon>searchUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersDataSet.cs">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="UsersDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -137,6 +170,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="searchInventory.resx">
+      <DependentUpon>searchInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchMenu.resx">
+      <DependentUpon>searchMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchOrders.resx">
+      <DependentUpon>searchOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchTables.resx">
+      <DependentUpon>searchTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchUsers.resx">
+      <DependentUpon>searchUsers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="viewInventory.resx">
       <DependentUpon>viewInventory.cs</DependentUpon>
     </EmbeddedResource>

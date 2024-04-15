@@ -25,7 +25,8 @@ namespace aarons_wood_milestone1
 
         private void orderBttn_Click(object sender, EventArgs e)
         {
-
+            searchOrders searchOrdersForm = new searchOrders();
+            searchOrdersForm.Show();
         }
 
         private void inventoryBttn_Click(object sender, EventArgs e)
@@ -56,6 +57,30 @@ namespace aarons_wood_milestone1
         {
             addTable addTableForm = new addTable();
             addTableForm.Show();
+        }
+
+        private void searchMenuBttn_Click(object sender, EventArgs e)
+        {
+            searchMenu searchMenuForm = new searchMenu();
+            searchMenuForm.Show();
+        }
+
+        private void searchUsersBttn_Click(object sender, EventArgs e)
+        {
+            searchUsers searchUsersForm = new searchUsers();
+            searchUsersForm.Show();
+        }
+
+        private void searchInventoryBttn_Click(object sender, EventArgs e)
+        {
+            searchInventory searchInventoryForm = new searchInventory();
+            searchInventoryForm.Show();
+        }
+
+        private void searchTablesBttn_Click(object sender, EventArgs e)
+        {
+            searchTables searchTablesForm = new searchTables();
+            searchTablesForm.Show();
         }
     }
 }

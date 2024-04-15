@@ -16,3 +16,8 @@ C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_mileston
 C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.viewInventory.resources
 C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.addTable.resources
 C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.placeOrder.resources
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.searchMenu.resources
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.searchUsers.resources
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.searchInventory.resources
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.searchOrders.resources
+C:\Users\evana\Desktop\Spring 2024\C# Programming II\week 9\aarons-wood_milestone1\aarons-wood_milestone1\obj\Debug\aarons_wood_milestone1.searchTables.resources
